@@ -17,3 +17,11 @@
   width: 100%;
   position: absolute;
 }
+
+#img_2 {
+  transition: opacity 500ms;
+}
+
+.hide {
+  opacity: 0;
+}
