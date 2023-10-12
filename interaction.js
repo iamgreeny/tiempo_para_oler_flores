@@ -7,6 +7,10 @@ function changeScene() {
   activeScene++;
   console.log(activeScene);
 
+  if (activeScene > 3) {
+    activeScene = 1;
+  }
+
   let img_1 = document.getElementById("img_1");
   let src_1 = "./img/s" + activeScene + ".png";
   img_1.src = src_1;
