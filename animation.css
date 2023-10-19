@@ -1,0 +1,45 @@
+#bee {
+  position: absolute;
+  width: 33%;
+  left: 34%;
+  animation: shake 50ms linear infinite;
+  animation-play-state: paused;
+}
+
+.bee_animation {
+  animation-play-state: running !important;
+}
+
+@keyframes grow {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 33%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0.5px);
+  }
+
+  50% {
+    transform: translateX(-0.5px);
+  }
+
+  100% {
+    transform: translateX(0.5px);
+  }
+}
