@@ -25,3 +25,38 @@
 .hide {
   opacity: 0;
 }
+
+@media (max-width: 900px) {
+  .scene_wrapper {
+    width: 600px;
+    height: 650px;
+  }
+}
+
+@media (max-width: 600px) {
+  .scene_wrapper {
+    width: 500px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 500px) {
+  .scene_wrapper {
+    width: 400px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .scene_wrapper {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 300px) {
+  .scene_wrapper {
+    width: 200px;
+    height: 250px;
+  }
+}

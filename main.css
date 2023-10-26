@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0;
   position: relative;
   box-sizing: border-box;
 }
@@ -25,7 +25,10 @@ header {
 }
 
 header h1 {
-  padding-top: 15px;
   font-family: "Courier New", Courier, monospace;
   color: #cd5c5c;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 30px;
 }
